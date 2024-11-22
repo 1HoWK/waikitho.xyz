@@ -1,18 +1,15 @@
 export default function About() {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-12 space-x-8 md:space-x-12">
-      {/* Left Side: Image */}
       <div className="flex-shrink-0">
         <img
-          src="https://via.placeholder.com/150" // Replace with your image URL
-          alt="Your Name"
-          className="w-32 h-32 rounded-full object-cover"
+          src="src/assets/image/profile.png"
+          alt="Profile Image"
+          className="w-32 h-32 rounded-full"
         />
       </div>
-
-      {/* Right Side: Title and Description */}
       <div className="flex-1">
-        <h1 className="text-8xl font-bold mb-4">Hi, I am Wai Kit</h1>
+        <h1 className="text-6xl font-bold mb-4 text-[#2ECC71]">Hi, I am Wai Kit</h1>
         <p className="text-lg">
           Hello! I am a Backend Engineer based in Malaysia. I can speak Chinese, English, Cantonese and Malay fluently.
           Now, I am working as a Backend Technical API Specialist in a startup company called Azgo.
@@ -21,8 +18,8 @@ export default function About() {
         <div className="flex space-x-6 mt-6">
           <a
             href="https://github.com/1HoWK"
-            target="_blank" // Optional: opens the link in a new tab
-            rel="noopener noreferrer" // Optional: security for opening in a new tab
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <svg
               className="w-6 h-6 text-[#2ECC71]"
@@ -41,9 +38,9 @@ export default function About() {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/in/ho-wai-kit/" // Replace with the desired link
-            target="_blank" // Optional: opens the link in a new tab
-            rel="noopener noreferrer" // Optional: security for opening in a new tab
+            href="https://www.linkedin.com/in/ho-wai-kit/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <svg
               className="w-6 h-6 text-[#2ECC71]"
@@ -64,8 +61,8 @@ export default function About() {
           </a>
           <a
             href="https://docs.google.com/document/d/1DdlBTz1eMrSWu43jW-wrAEK3SrUKf5KlTVKEoY4hlZg/edit?usp=sharing"
-            target="_blank" // Optional: opens the link in a new tab
-            rel="noopener noreferrer" // Optional: security for opening in a new tab
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <svg
               className="w-6 h-6 text-[#2ECC71]"
