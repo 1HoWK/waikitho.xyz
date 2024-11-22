@@ -1,3 +1,3 @@
 # waikitho.xyz
 
-React + Tailwind CSS
+React + Tailwind CSS + Flowbite
