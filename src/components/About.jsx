@@ -1,20 +1,27 @@
 export default function About() {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-12 space-x-8 md:space-x-12">
+    <section className="flex flex-col md:flex-row items-center justify-between max-w-screen-lg mx-auto px-6 py-12 space-x-8 md:space-x-12">
       <div className="flex-shrink-0">
         <img
           src="src/assets/image/profile.png"
           alt="Profile Image"
-          className="w-32 h-32 rounded-full"
+          className="w-48 h-48 rounded-full"
         />
       </div>
       <div className="flex-1">
-        <h1 className="text-6xl font-bold mb-4 text-[#2ECC71]">Hi, I am Wai Kit</h1>
+        <h1 className="text-6xl font-bold mb-4 text-[#2ECC71]">
+          Hi, I am Wai Kit
+        </h1>
         <p className="text-lg">
-          Hello! I am a Backend Engineer based in Malaysia. I can speak Chinese, English, Cantonese and Malay fluently.
-          Now, I am working as a Backend Technical API Specialist in a startup company called Azgo.
+          Hello! I am a Backend Engineer based in Malaysia. Now, I am working as
+          a Backend Technical API Specialist in a startup company called Azgo.
+          You can speak to me in Chinese, English, Cantonese and Malay.
         </p>
-
+        <br />
+        <p className="text-lg">
+          Reach out to me if you're looking for a team to crush a hackathon or
+          bring an exciting project to life!
+        </p>
         <div className="flex space-x-6 mt-6">
           <a
             href="https://github.com/1HoWK"

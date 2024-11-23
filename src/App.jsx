@@ -1,9 +1,10 @@
 import "./App.css";
 import "./index.css";
-import About from "./components/About";
+import  About  from "./components/About";
 import { Work } from "./components/Work";
 import { Skills } from "./components/Skills";
 import { Educations } from "./components/Educations";
+
 
 function App() {
   return (

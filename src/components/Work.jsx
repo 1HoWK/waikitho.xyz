@@ -4,7 +4,7 @@ import { Timeline } from "flowbite-react";
 
 export function Work() {
   return (
-    <div className="max-w-screen-xl items-center justify-between mx-auto p-8 py-12">
+    <div className="max-w-screen-lg items-center justify-between mx-auto p-8 py-12">
       <h1 className="text-5xl font-bold mb-6">Work Experiences</h1>
       <Timeline>
         <Timeline.Item>
